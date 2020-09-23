@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mf.test.projecttiketcom.utils.view.TCCenteredToolbarTitle xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/new_toolbar_background_color"
+    android:contentInsetStart="0dp"
+    android:contentInsetLeft="0dp"
+    android:contentInsetStartWithNavigation="0dp"
+    android:minHeight="?android:attr/actionBarSize"
+    android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:contentInsetLeft="0dp"
+    app:contentInsetStart="0dp"
+    app:contentInsetStartWithNavigation="0dp"
+    tools:targetApi="lollipop">
+
+    <RelativeLayout
+        android:id="@+id/lib_action_bar_filter_view_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:gravity="left">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="left"
+            android:maxLines="2"
+            android:paddingLeft="50dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/primary_color"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</com.mf.test.projecttiketcom.utils.view.TCCenteredToolbarTitle>
